@@ -13,10 +13,14 @@ Resumos de comandos mais usados.
 | Content Cell  | Content Cell  |
 
 
-| AULA 2 - Repositórios  | Comando |
-| ------------- | ------------- |
+| AULA 2 - Repositórios  | Comando | Extras | 
+| ------------- | ------------- |------------ |
 | Adicionar repositório remoto em seu local de dev  | ````git remote````  |
 | Verificar se há alguma alteração pendente de realizar  | ````git status````  |
+| Adicionar arquivo ou pasta para ser enviada para o repositório do git  | ````git add````  |
+| Passar documentos do seu local para o repositório no Git  | ````git commit````  | Adicionar ````git commit -m"TEXTO"```` para adicionar um comentário neste commit |
+| Verificar histórico de commits e comentários  | ````git log````  | |
+ 
 
 ## 🔍 Referências
 
