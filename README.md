@@ -17,11 +17,11 @@ Resumos de comandos mais usados.
 | AULA 2 - Repositórios  | Comando | Extras | 
 | ------------- | ------------- | ------------ |
 | Adicionar repositório remoto em seu local de dev  | ````git clone http ou SSH do repositório````  | http usa token gerado pela plataforma do github |
-| Abrir o git  | ````git init````  | ideal abrir o diretório pelo explorador de arquivos e usar a opção git bash here no botão direito do mouse |
+| Abrir o git  | ````git init````  | Adeal abrir o diretório pelo explorador de arquivos e usar a opção git bash here no botão direito do mouse |
 | Adicionar repositório remoto em seu local de dev  | ````git remote````  | exemplo ````git remote add origin https://github.com/username/nome-do-repositorio.git```` |
 | Verificar se há alguma alteração pendente de realizar  | ````git status````  |  |
 | Quando não quer adicionar algo no commit para ir para o git  | ````echo NOME DA PASTA OU ARQUIVO/ > .gitignore````  |  |
-| Adicionar arquivo ou pasta para ser enviada para o repositório do git  | ````git add NOMEDOARQUIVO.EXTENSAO````  | usar add . para adicionar todas alterações no commit |
+| Adicionar arquivo ou pasta para ser enviada para o repositório do git  | ````git add NOMEDOARQUIVO.EXTENSAO````  | usar ````git add .```` para adicionar todas alterações no commit |
 | Passar documentos do seu local para o repositório no Git  | ````git commit````  | Adicionar ````git commit -m"TEXTO"```` para adicionar um comentário neste commit |
 | Verificar histórico de commits e comentários  | ````git log````  | |
 | Verificar histórico detalhado de commits e comentários  | ````git reflog````  | Mostra histórico completo de alterações |
@@ -33,6 +33,12 @@ Resumos de comandos mais usados.
 | Para restaurar alterações indesejadas para a última versão que foi commitada | ````git restore NOMEDOARQUIVO.EXTENSAO````  |  |
 | Retornar para commit anterior | ````git reset --OPCAO HASHCOMMIT````  | soft / mixed / hard |
 | Para alterar descrição de um commit | ````git commit --amend -m"NOVO TEXTO"````  |  |
+
+| AULA 4 - Enviar repositórios para   | Comando | Extras | 
+| ------------- | ------------- | ------------ |
+| Para configurar o repositório padrão | ````git remote add origin LINK````  |  |
+| Para sincronizar o repositório local com o repositório remoto | ````git push -u origin main````  |  |
+| Para alterar o repositório padrão | ````git remote set-url origin LINK````  |  |
 
 ## 🔍 Referências
 
